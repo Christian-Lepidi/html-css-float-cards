@@ -18,3 +18,52 @@
     margin-right: auto;
 }
 
+.paragraph{
+    text-align: center;
+}
+
+.cards-container{
+    width: 80%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem;
+}
+
+.row{
+    width: 100%;
+    margin: auto;
+}
+
+.col1-3{
+    width: calc(100% / 3);
+    float: left;
+}
+
+
+.card{
+    height: 100px;
+    width: 300px;
+    background-color: aquamarine;
+    
+}
+
+.image{
+    width: 30%;
+    height: 100px;
+    background-color: orange;
+    float: left;
+}
+
+.generality{
+    width: 70%;
+    height: 100px;
+    background-color: greenyellow;
+    float: right;
+}
+
+.second{
+    margin-top: 30px;
+}
+
+
