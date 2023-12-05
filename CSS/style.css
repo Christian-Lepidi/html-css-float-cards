@@ -5,6 +5,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+img{
+    height: 100%;
+}
+
 .title{
     color: rgb(199, 21, 21);
     margin-top: 30px;
@@ -38,20 +48,26 @@
 .col1-3{
     width: calc(100% / 3);
     float: left;
+    padding: 0 1rem;
 }
 
 
 .card{
     height: 100px;
-    width: 300px;
-    background-color: aquamarine;
-    
+    background-color: black;
+}
+
+.first{
+    margin: 0 -1rem
+}
+
+.third{
+    margin: 0 -1rem;
 }
 
 .image{
-    width: 30%;
+    width: 25%;
     height: 100px;
-    background-color: orange;
     float: left;
 }
 
